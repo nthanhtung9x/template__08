@@ -1,0 +1,159 @@
+/* PC low -> Tablet */
+@media (min-width:1024px) and (max-width:1239px) {
+    .wide {
+        width: 984px;
+    }
+    
+    .row {
+        margin: 0 -8px;
+    }
+
+    .col {
+        padding: 0 8px;
+    }
+
+    .l-0 {
+        display:none;
+    }
+
+    .l-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1023px) {
+    .wide {
+        width: 644px;
+    }
+
+    .row {
+        margin: 0 -6px;
+    }
+
+    .col {
+        padding: 6px;
+    }
+
+    .header {
+        height: 75px;
+    }
+
+    .header__item {
+        margin: 0 2px;
+    }
+
+    .header__search {
+        width: 80%;
+    }
+
+    a.header__user-link {
+        display:none;
+    }
+
+    .slide {
+        display: block;
+        height: 1200px;
+    }
+
+    .m-3 {
+        flex : 0 0 25%;
+        max-width: 25%;
+    }
+
+    .m-4 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+
+    .m-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .m-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Mobile */
+@media(max-width:739px) {
+    .row {
+        margin: 0;
+    }
+    
+    .col {
+        padding: 4px;
+    }
+    
+    .c-0 {
+        display:none;
+    }
+    .c-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .c-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .c-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .c-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .slide {
+        display: block;
+        height: auto;
+    }
+
+    .category__heading {
+        padding:12px 36px;
+    }
+
+    .category__list {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .category__item {
+        width: 25%;
+        height: 100%;
+    }
+
+    .category__item:last-child:hover .category__type-main {
+        display: block;
+    }
+
+    .category__item:last-child .link__list::after {
+        display:none;
+    }
+    .footer {
+        text-align: center;
+    }
+
+    .menu {
+        display:flex;
+    }
+
+    .footer__partner {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:480px) {
+    .ec-0 {
+        display:none;
+    }
+}

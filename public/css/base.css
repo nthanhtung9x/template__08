@@ -1,0 +1,105 @@
+:root {
+    --heading: #252222;
+    --text: #2c2c2e;
+    --text-blur: rgba(0,0,0,0.5);
+    --primary: rgb(11, 153, 122);
+    --primary-hover:rgb(7, 126, 100);
+    --dark-bg: rgb(28, 35, 64);
+    --height-header: 100px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+.grid {
+    width:100%;
+    display:block;
+    margin:0;
+}
+
+.wide {
+    width:1200px;
+    max-width: 100%;
+    margin:0 auto;
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+    height: 100%;
+}
+
+.col {
+    padding: 0 12px;
+}
+
+.xl-2 {
+    flex: 0 0 16.6666%;
+    max-width: 16.6666%;
+}
+
+.xl-2-4 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.xl-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+.xl-6 {
+    flex:0 0 50%;
+    max-width: 50%;
+}
+
+.xl-8 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+}
+
+.xl-10 {
+    flex: 0 0 83.3334%;
+    max-width: 83.3334%;
+}
+
+.xl-12 {
+    flex:0 0 100%;
+    max-width: 100%;
+}
+
+
+/* Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
